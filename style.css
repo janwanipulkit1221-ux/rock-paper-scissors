@@ -1,0 +1,63 @@
+*{
+    background-color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+
+
+#rock{
+  height: 5cm;
+  width: 5cm;
+    background-color: aqua;
+    align-self: center;
+    font-size: 100px;
+     border-radius: 50%;
+      display: flex;
+}
+#paper{
+    height: 5cm;
+    width:5cm;
+    background-color: yellow;
+     align-self: center;
+     font-size: medium;
+        font-size: 100px;
+         border-radius: 50%;
+          display: flex;
+}
+#scissor{
+     height: 5cm;
+     width: 5cm;
+    background-color: red;
+     align-self: center;
+     font-size: medium;
+        font-size: 100px;
+        border-radius: 50%;
+         display: flex;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: fit-content;
+    
+}
+#newGame{
+    height: 2cm;
+  width: 2cm;
+    
+    align-self: center;
+    font-size: 13px;
+    color: rgb(108, 85, 54);
+}
+
+
+#count{
+    height: 2cm;
+  width: 2cm;
+  color: blueviolet;
+  text-align: center;
+  justify-content: center;
+
+}
